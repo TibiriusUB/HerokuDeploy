@@ -1,17 +1,28 @@
 {
-  "name": "starwars-express",
+  "name": "friendfinder",
   "version": "1.0.0",
-  "description": "",
+  "description": "Friend Finding App based on match-making questions.",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.16.3"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js"
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TibiriusUB/FriendFinder.git"
+  },
+  "keywords": [
+    "Node",
+    "Express"
+  ],
+  "author": "J Maguire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TibiriusUB/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/TibiriusUB/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
 }
