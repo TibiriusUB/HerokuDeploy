@@ -11,7 +11,11 @@ module.exports = function(app) {
   // app.get("/12", function(req, res) {
   //   res.sendFile(path.join(__dirname, "../images/12.jpg"));
   // });
-
+ 
+  app.get("/", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/home.html"));
+  });
+};
   
   app.get("*", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/home.html"));
